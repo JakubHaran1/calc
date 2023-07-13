@@ -1,0 +1,167 @@
+/* Theme I */
+.calculator-wrapper.first-theme {
+  background-color: var(--mainBackground);
+}
+.main-header.first-theme,
+.theme-header.first-theme,
+.theme-options.first-theme,
+.view-value.first-theme {
+  color: var(--white);
+}
+.button.first-theme,
+.calc-buttons.first-theme {
+  background-color: var(--toggleBackground);
+}
+.circle.first-theme {
+  background-color: var(--red);
+}
+.view.first-theme {
+  background-color: var(--screen_background);
+}
+
+.calc.first-theme {
+  color: var(--veryDarkGrayishBlue);
+  background-color: var(--lightGrayishOrange);
+  -webkit-box-shadow: 0 3 0 2 var(--desaturatedDarkBlue);
+  -moz-box-shadow: 0 3 0 2 var(--desaturatedDarkBlue);
+  box-shadow: 0 3 0 2 var(--desaturatedDarkBlue);
+}
+
+.calc.reset.first-theme,
+.calc.del.first-theme {
+  background-color: #637397;
+  color: white;
+  -webkit-box-shadow: 0px 3px 0px 2px rgba(64, 78, 114, 1);
+  -moz-box-shadow: 0px 3px 0px 2px rgba(64, 78, 114, 1);
+  box-shadow: 0px 3px 0px 2px rgba(64, 78, 114, 1);
+}
+.calc.equal.first-theme {
+  background-color: var(--red);
+  color: white;
+  -webkit-box-shadow: 0px 3px 0px 2px hsl(6, 70%, 34%);
+  -moz-box-shadow: 0px 3px 0px 2px hsl(6, 70%, 34%);
+  box-shadow: 0px 3px 0px 2px hsl(6, 70%, 34%);
+}
+
+.calc.first-theme:hover {
+  background-color: #ffffff;
+}
+
+.calc.equal.first-theme:hover {
+  background-color: hsl(6, 82%, 57%);
+}
+.calc.reset.first-theme:hover,
+.calc.del.first-theme:hover {
+  background-color: #768dc3;
+}
+/* THEME II */
+
+.calculator-wrapper.second-theme {
+  background-color: var(--lightgray);
+}
+.view-value.second-theme {
+  color: white;
+}
+.main-header.second-theme,
+.theme-header.second-theme,
+.theme-options.second-theme {
+  color: var(--veryDarkGrayishYellow);
+}
+
+.circle.second-theme {
+  background-color: var(--orange);
+}
+.button.second-theme {
+  background-color: var(--veryLightGray);
+}
+.calc-buttons.second-theme {
+  background-color: var(--grayishRed);
+}
+.calc.second-theme {
+  background-color: var(--lightGrayishYellow);
+  -webkit-box-shadow: 0 3 0 2 var(--darkGrayishOrange);
+  -moz-box-shadow: 0 3 0 2 var(--darkGrayishOrange);
+  box-shadow: 0 3 0 2 var(--darkGrayishOrange);
+}
+.calc.reset.second-theme,
+.calc.del.second-theme {
+  color: white;
+  background-color: var(--darkModerateCyan);
+  -webkit-box-shadow: 0 3 0 2 var(--veryDarkCyan);
+  -moz-box-shadow: 0 3 0 2 var(--veryDarkCyan);
+  box-shadow: 0 3 0 2 var(--veryDarkCyan);
+}
+.calc.equal.second-theme {
+  color: white;
+  background-color: hsl(25, 94%, 44%);
+  -webkit-box-shadow: 0 3 0 2 var(--darkRed);
+  -moz-box-shadow: 0 3 0 2 var(--darkRed);
+  box-shadow: 0 3 0 2 var(--darkRed);
+}
+.calc.calc.second-theme:hover {
+  background-color: hsl(45, 18%, 96%);
+}
+
+.calc.equal.calc.second-theme:hover {
+  background-color: hsl(25, 94%, 47%);
+}
+.calc.reset.calc.second-theme:hover,
+.calc.del.calc.second-theme:hover {
+  background-color: hsl(185, 40%, 46%);
+}
+
+/* Theme III */
+.calculator-wrapper.third-theme {
+  background-color: var(--veryDarkViolet);
+}
+.main-header.third-theme,
+.theme-header.third-theme,
+.theme-options.third-theme,
+.view-value.third-theme {
+  color: var(--lightYellow);
+}
+.button.third-theme,
+.calc-buttons.third-theme {
+  background-color: var(--veryDarkViolet2);
+}
+.circle.third-theme {
+  background-color: var(--pureCyan);
+}
+.view.third-theme {
+  background-color: var(--veryDarkViolet2);
+}
+
+.calc.third-theme {
+  color: var(--lightYellow);
+  background-color: var(--veryDarkViolet);
+  -webkit-box-shadow: 0 3 0 2 var(--vividMagenta);
+  -moz-box-shadow: 0 3 0 2 var(--vividMagenta);
+  box-shadow: 0 3 0 2 var(--vividMagenta);
+}
+
+.calc.reset.third-theme,
+.calc.del.third-theme {
+  background-color: var(--darkViolet);
+  color: white;
+  -webkit-box-shadow: 0 2 2 2 var(--vividMagenta);
+  -moz-box-shadow: 0 2 2 2 var(--vividMagenta);
+  box-shadow: 0 2 2 2 var(--vividMagenta);
+}
+.calc.equal.third-theme {
+  background-color: var(--pureCyan);
+  color: var(--darkViolet);
+  -webkit-box-shadow: 0 2 2 2 var(--pureCyan);
+  -moz-box-shadow: 0 2 2 2 var(--pureCyan);
+  box-shadow: 0 2 2 2 var(--pureCyan);
+}
+
+.calc.calc.third-theme:hover {
+  background-color: hsl(268, 71%, 34%);
+}
+.calc.equal.calc.third-theme:hover {
+  background-color: hsl(176, 100%, 51%);
+}
+.calc.reset.calc.third-theme:hover,
+.calc.del.calc.third-theme:hover {
+  background-color: hsl(281, 93%, 33%);
+}
