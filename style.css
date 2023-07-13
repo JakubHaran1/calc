@@ -208,7 +208,14 @@ body {
   cursor: pointer;
   transition: 0.3s;
 }
-
+.calc::-moz-selection {
+  color: none;
+  background: none;
+}
+.calc::selection {
+  color: none;
+  background: none;
+}
 .calc.reset {
   grid-column: 1/3;
   grid-row: 5/6;
