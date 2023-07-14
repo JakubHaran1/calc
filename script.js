@@ -12,6 +12,7 @@ const calcBtnWrapper = document.querySelector(".calc-buttons");
 const calcBtns = document.querySelectorAll(".number");
 const calcReset = document.querySelector(".calc.reset");
 const calcDel = document.querySelector(".calc.del");
+const actionBtns = document.querySelectorAll(".calc.action");
 
 const calcEqual = document.querySelector(".calc.equal");
 const calcPlus = document.querySelector(".calc.plus");
@@ -38,6 +39,8 @@ const actionFunction = () => {
     viewWalue = "";
     actionArr.push(actionType);
     check_value = 1;
+    actionBtns.forEach(btn => btn.disabled = true)
+    console.log(12)
 
 }
 
@@ -149,14 +152,17 @@ const delFunction = () => {
 }
 
 const resetFunction = () => {
-    viewWalue = "";
     view.textContent = 0;
+    viewWalue = "";
     numbersArray = [];
     action = 0;
     actionType;
     actionArr = [];
     resultArr = [];
     result = 0;
+    check_value = 0;
+    actionBtns.forEach(btn => btn.disabled = false)
+    console.log()
 }
 
 
@@ -174,6 +180,7 @@ calcBtns.forEach(btn => {
         viewWalue += btn.innerHTML.trim();
         view.textContent = viewWalue;
         view_wrapper.scrollLeft = view_wrapper.offsetWidth;
+        actionBtns.forEach(btn => btn.disabled = false)
     });
 });
 
@@ -222,6 +229,7 @@ calcDivision.addEventListener("click", function () {
 calcEqual.addEventListener("click", function () {
     EqualFunctions(actionArr)
     actionArr = []
+    actionBtns.forEach(btn => btn.disabled = false)
 });
 
 
